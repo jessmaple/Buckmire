@@ -3,7 +3,7 @@
   padding: 0%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Sk-Modernist";
+  font-family: "syne-extra";
   color: #fff;
 }
 
@@ -74,7 +74,7 @@ body {
 }
 
 .header .header-container h1 {
-  font-family: "Bigilla";
+  font-family: "syne";
   font-size: 12rem;
 }
 
@@ -174,7 +174,7 @@ body {
   color: #fff;
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
-  font-family: "Bigilla";
+  font-family: "syne";
   text-transform: uppercase;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .marquee span {
-  font-family: "Bigilla" !important;
+  font-family: "syne" !important;
   text-transform: uppercase;
 }
 

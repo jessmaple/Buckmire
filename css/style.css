@@ -176,6 +176,7 @@ body {
   transition: opacity 0.4s;
   font-family: "syne";
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .menu__item-link::before {
@@ -243,7 +244,7 @@ body {
   display: flex;
   position: relative;
   -webkit-animation: marquee 5s linear infinite;
-  animation: marquee 5s linear infinite;
+  animation: marquee 10s linear infinite;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
   opacity: 0;

@@ -76,6 +76,7 @@ body {
 .header .header-container h1 {
   font-family: "syne";
   font-size: 12rem;
+  z-index: 99;
 }
 
 @media (max-width: 900px) {
@@ -88,12 +89,13 @@ body {
 
 .hero-image {
   width: 100%;
-  margin-top: -300px;
+  margin-top: 10px;
+  z-index: 1;
 }
 
 .hero-image::after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
@@ -315,7 +317,7 @@ body {
 /* socials */
 
 .socials {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .socials .socials-container {
@@ -331,7 +333,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-family: "syne" !important;
-  font-size: 64px;
+  font-size: 50px;
 }
 
 @media (max-width: 900px) {
